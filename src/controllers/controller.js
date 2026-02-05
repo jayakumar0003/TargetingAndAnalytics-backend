@@ -7,7 +7,6 @@ export const getUsers = async (req, res) => {
   FROM ANALYTICS.ANALYTICS_SCHEMA.TTD_SSOT
   LIMIT 20
 `;
-
     const data = await executeQuery(query);
     res.status(200).json({
       success: true,
@@ -24,15 +23,15 @@ export const getUsers = async (req, res) => {
   }
 };
 
-export const updateByPlacementName = async (req, res) => {
+export const updateByPackageName = async (req, res) => {
   try {
     const body = req.body;
 
     // 1️⃣ Validation
-    if (!body.PLACEMENTNAME) {
+    if (!body.RADIA_OR_PRISMA_PACKAGE_NAME) {
       return res.status(400).json({
         success: false,
-        message: "PLACEMENTNAME is required",
+        message: "RADIA_OR_PRISMA_PACKAGE_NAME is required",
       });
     }
 
@@ -41,8 +40,14 @@ export const updateByPlacementName = async (req, res) => {
     const values = [];
 
     for (const [key, value] of Object.entries(body)) {
-      // Skip PLACEMENTNAME (used only in WHERE)
-      if (key === "PLACEMENTNAME") continue;
+      // Skip primary key (used only in WHERE)
+      if (
+        key === "RADIA_OR_PRISMA_PACKAGE_NAME" ||
+        key === "PLACEMENTNAME" ||
+        key === "BUY_MODEL" 
+      ) {
+        continue;
+      }
 
       updates.push(`${key} = ?`);
       values.push(value ?? null); // allow null updates
@@ -55,14 +60,84 @@ export const updateByPlacementName = async (req, res) => {
       });
     }
 
-    // WHERE value last
-    values.push(body.PLACEMENTNAME);
+    // 3️⃣ WHERE value (order matters)
+    values.push(body.RADIA_OR_PRISMA_PACKAGE_NAME);
 
-    // 3️⃣ Final UPDATE query
+    // 4️⃣ Final UPDATE query
     const query = `
       UPDATE ANALYTICS.ANALYTICS_SCHEMA.TTD_SSOT
       SET ${updates.join(", ")}
-      WHERE PLACEMENTNAME = ?
+      WHERE RADIA_OR_PRISMA_PACKAGE_NAME = ?
+    `;
+
+    await executeQuery(query, values);
+
+    res.status(200).json({
+      success: true,
+      message: "Record(s) updated successfully",
+      key: {
+        RADIA_OR_PRISMA_PACKAGE_NAME: body.RADIA_OR_PRISMA_PACKAGE_NAME,
+      },
+      updatedColumns: updates.length,
+    });
+  } catch (error) {
+    console.error("Snowflake UPDATE error:", error);
+
+    res.status(500).json({
+      success: false,
+      message: "Failed to update record",
+    });
+  }
+};
+
+export const updateByPackageNameAndPlacementName = async (req, res) => {
+  try {
+    const body = req.body;
+
+    // 1️⃣ Validation (composite key required)
+    if (!body.PLACEMENTNAME || !body.RADIA_OR_PRISMA_PACKAGE_NAME) {
+      return res.status(400).json({
+        success: false,
+        message:
+          "Both PLACEMENTNAME and RADIA_OR_PRISMA_PACKAGE_NAME are required",
+      });
+    }
+
+    // 2️⃣ Build SET clause dynamically
+    const updates = [];
+    const values = [];
+
+    for (const [key, value] of Object.entries(body)) {
+      // Skip composite key columns (used only in WHERE)
+      if (
+        key === "RADIA_OR_PRISMA_PACKAGE_NAME" ||
+        key === "PLACEMENTNAME" ||
+        key === "BUY_MODEL" 
+      ) {
+        continue;
+      }
+
+      updates.push(`${key} = ?`);
+      values.push(value ?? null); // allow null updates
+    }
+console.log("Updates "+updates)
+console.log("values "+ values)
+    if (updates.length === 0) {
+      return res.status(400).json({
+        success: false,
+        message: "No fields provided to update",
+      });
+    }
+
+    // 3️⃣ WHERE values (order matters!)
+    values.push(body.RADIA_OR_PRISMA_PACKAGE_NAME);
+    values.push(body.PLACEMENTNAME);
+
+    // 4️⃣ Final UPDATE query (composite key)
+    const query = `
+      UPDATE ANALYTICS.ANALYTICS_SCHEMA.TTD_SSOT
+      SET ${updates.join(", ")}
+      WHERE RADIA_OR_PRISMA_PACKAGE_NAME = ? AND PLACEMENTNAME = ?
     `;
 
     await executeQuery(query, values);
@@ -70,7 +145,10 @@ export const updateByPlacementName = async (req, res) => {
     res.status(200).json({
       success: true,
       message: "Record updated successfully",
-      placementName: body.PLACEMENTNAME,
+      keys: {
+        PLACEMENTNAME: body.PLACEMENTNAME,
+        RADIA_OR_PRISMA_PACKAGE_NAME: body.RADIA_OR_PRISMA_PACKAGE_NAME,
+      },
       updatedColumns: updates.length,
     });
   } catch (error) {

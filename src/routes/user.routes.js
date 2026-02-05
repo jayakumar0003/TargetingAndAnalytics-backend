@@ -1,11 +1,14 @@
 import { Router } from "express";
-import { getUsers, updateByPlacementName } from "../controllers/controller.js";
+import { getUsers, updateByPackageName, updateByPackageNameAndPlacementName } from "../controllers/controller.js";
 
 const router = Router();
 
 router.get("/", getUsers);
 
-// UPDATE API
-router.put("/by-placement", updateByPlacementName);
+// UPDATE BY PLACEMENT-NAME AND PACKAGE-NAME
+router.put("/by-package-and-placement", updateByPackageNameAndPlacementName);
+
+// UPDATE BY PACKAGE-NAME
+router.put("/by-package", updateByPackageName)
 
 export default router;

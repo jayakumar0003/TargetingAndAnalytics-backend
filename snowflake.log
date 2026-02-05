@@ -248,3 +248,529 @@
 {"level":"INFO","message":"[10:42:50.146 AM]: No config file path found. Client config will not be used."}
 {"level":"INFO","message":"[10:42:50.146 AM]: Easy Logging is disabled as no config has been found"}
 {"level":"INFO","message":"[10:42:50.963 AM]: Connection[id: e232d1bc-a67b-41d1-bb0a-808a7ada6038] - connection established successfully after 822.62 milliseconds"}
+{"level":"INFO","message":"[11:35:31.827 AM]: Creating new connection object"}
+{"level":"INFO","message":"[11:35:31.841 AM]: Creating Connection[id: e1700a84-e3a6-49bc-b519-07f4a6fc78b1] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[11:35:31.842 AM]: Connection[id: e1700a84-e3a6-49bc-b519-07f4a6fc78b1] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[11:35:31.843 AM]: Connection[id: e1700a84-e3a6-49bc-b519-07f4a6fc78b1] - connection object created successfully."}
+{"level":"INFO","message":"[11:35:31.848 AM]: Connection[id: e1700a84-e3a6-49bc-b519-07f4a6fc78b1] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[11:35:31.849 AM]: Connection[id: e1700a84-e3a6-49bc-b519-07f4a6fc78b1] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[11:35:31.850 AM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[11:35:31.854 AM]: No client config detected."}
+{"level":"INFO","message":"[11:35:31.855 AM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[11:35:31.855 AM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[11:35:32.929 AM]: Connection[id: e1700a84-e3a6-49bc-b519-07f4a6fc78b1] - connection established successfully after 1080.2 milliseconds"}
+{"level":"INFO","message":"[11:35:48.888 AM]: Creating new connection object"}
+{"level":"INFO","message":"[11:35:48.902 AM]: Creating Connection[id: c435d6b8-32eb-4357-b501-210872f193a4] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[11:35:48.903 AM]: Connection[id: c435d6b8-32eb-4357-b501-210872f193a4] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[11:35:48.903 AM]: Connection[id: c435d6b8-32eb-4357-b501-210872f193a4] - connection object created successfully."}
+{"level":"INFO","message":"[11:35:48.908 AM]: Connection[id: c435d6b8-32eb-4357-b501-210872f193a4] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[11:35:48.909 AM]: Connection[id: c435d6b8-32eb-4357-b501-210872f193a4] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[11:35:48.910 AM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[11:35:48.913 AM]: No client config detected."}
+{"level":"INFO","message":"[11:35:48.913 AM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[11:35:48.914 AM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[11:35:49.655 AM]: Connection[id: c435d6b8-32eb-4357-b501-210872f193a4] - connection established successfully after 746.68 milliseconds"}
+{"level":"INFO","message":"[12:22:19.312 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:22:19.327 PM]: Creating Connection[id: c59d5f3d-77a4-44ad-83ba-e4a268692ab6] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:22:19.328 PM]: Connection[id: c59d5f3d-77a4-44ad-83ba-e4a268692ab6] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:22:19.329 PM]: Connection[id: c59d5f3d-77a4-44ad-83ba-e4a268692ab6] - connection object created successfully."}
+{"level":"INFO","message":"[12:22:19.335 PM]: Connection[id: c59d5f3d-77a4-44ad-83ba-e4a268692ab6] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:22:19.337 PM]: Connection[id: c59d5f3d-77a4-44ad-83ba-e4a268692ab6] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:22:19.338 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:22:19.342 PM]: No client config detected."}
+{"level":"INFO","message":"[12:22:19.343 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:22:19.344 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:22:20.281 PM]: Connection[id: c59d5f3d-77a4-44ad-83ba-e4a268692ab6] - connection established successfully after 946.05 milliseconds"}
+{"level":"INFO","message":"[12:23:23.550 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:23:23.564 PM]: Creating Connection[id: 38ea275c-6532-496f-b0f0-ab60ed291a3a] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:23:23.566 PM]: Connection[id: 38ea275c-6532-496f-b0f0-ab60ed291a3a] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:23:23.567 PM]: Connection[id: 38ea275c-6532-496f-b0f0-ab60ed291a3a] - connection object created successfully."}
+{"level":"INFO","message":"[12:23:23.573 PM]: Connection[id: 38ea275c-6532-496f-b0f0-ab60ed291a3a] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:23:23.574 PM]: Connection[id: 38ea275c-6532-496f-b0f0-ab60ed291a3a] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:23:23.574 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:23:23.578 PM]: No client config detected."}
+{"level":"INFO","message":"[12:23:23.579 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:23:23.580 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:23:24.955 PM]: Connection[id: 38ea275c-6532-496f-b0f0-ab60ed291a3a] - connection established successfully after 1382 milliseconds"}
+{"level":"INFO","message":"[12:23:46.449 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:23:46.464 PM]: Creating Connection[id: 2ef79df6-f02c-49a4-bfff-688e653da1aa] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:23:46.465 PM]: Connection[id: 2ef79df6-f02c-49a4-bfff-688e653da1aa] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:23:46.466 PM]: Connection[id: 2ef79df6-f02c-49a4-bfff-688e653da1aa] - connection object created successfully."}
+{"level":"INFO","message":"[12:23:46.471 PM]: Connection[id: 2ef79df6-f02c-49a4-bfff-688e653da1aa] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:23:46.472 PM]: Connection[id: 2ef79df6-f02c-49a4-bfff-688e653da1aa] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:23:46.473 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:23:46.477 PM]: No client config detected."}
+{"level":"INFO","message":"[12:23:46.478 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:23:46.479 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:23:47.208 PM]: Connection[id: 2ef79df6-f02c-49a4-bfff-688e653da1aa] - connection established successfully after 737.8 milliseconds"}
+{"level":"INFO","message":"[12:23:54.785 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:23:54.798 PM]: Creating Connection[id: 9c0b7def-2f19-4bb1-aeb6-ed4807cb7a41] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:23:54.799 PM]: Connection[id: 9c0b7def-2f19-4bb1-aeb6-ed4807cb7a41] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:23:54.800 PM]: Connection[id: 9c0b7def-2f19-4bb1-aeb6-ed4807cb7a41] - connection object created successfully."}
+{"level":"INFO","message":"[12:23:54.804 PM]: Connection[id: 9c0b7def-2f19-4bb1-aeb6-ed4807cb7a41] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:23:54.805 PM]: Connection[id: 9c0b7def-2f19-4bb1-aeb6-ed4807cb7a41] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:23:54.806 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:23:54.809 PM]: No client config detected."}
+{"level":"INFO","message":"[12:23:54.809 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:23:54.810 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:23:56.288 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:23:56.305 PM]: Creating Connection[id: 1423a15d-fb36-4271-b605-5a4c516ac290] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:23:56.307 PM]: Connection[id: 1423a15d-fb36-4271-b605-5a4c516ac290] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:23:56.308 PM]: Connection[id: 1423a15d-fb36-4271-b605-5a4c516ac290] - connection object created successfully."}
+{"level":"INFO","message":"[12:23:56.312 PM]: Connection[id: 1423a15d-fb36-4271-b605-5a4c516ac290] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:23:56.314 PM]: Connection[id: 1423a15d-fb36-4271-b605-5a4c516ac290] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:23:56.315 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:23:56.322 PM]: No client config detected."}
+{"level":"INFO","message":"[12:23:56.323 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:23:56.324 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:23:56.788 PM]: Connection[id: 1423a15d-fb36-4271-b605-5a4c516ac290] - connection established successfully after 475.08 milliseconds"}
+{"level":"INFO","message":"[12:23:57.729 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:23:57.744 PM]: Creating Connection[id: bc81e653-da0f-4ba3-8940-59c5ee1ead9f] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:23:57.745 PM]: Connection[id: bc81e653-da0f-4ba3-8940-59c5ee1ead9f] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:23:57.746 PM]: Connection[id: bc81e653-da0f-4ba3-8940-59c5ee1ead9f] - connection object created successfully."}
+{"level":"INFO","message":"[12:23:57.752 PM]: Connection[id: bc81e653-da0f-4ba3-8940-59c5ee1ead9f] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:23:57.753 PM]: Connection[id: bc81e653-da0f-4ba3-8940-59c5ee1ead9f] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:23:57.754 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:23:57.759 PM]: No client config detected."}
+{"level":"INFO","message":"[12:23:57.759 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:23:57.760 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:23:58.198 PM]: Connection[id: bc81e653-da0f-4ba3-8940-59c5ee1ead9f] - connection established successfully after 446.11 milliseconds"}
+{"level":"INFO","message":"[12:24:05.678 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:24:05.692 PM]: Creating Connection[id: c74db796-5b89-41fe-b0b4-bc33fd96e8a9] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:24:05.693 PM]: Connection[id: c74db796-5b89-41fe-b0b4-bc33fd96e8a9] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:24:05.693 PM]: Connection[id: c74db796-5b89-41fe-b0b4-bc33fd96e8a9] - connection object created successfully."}
+{"level":"INFO","message":"[12:24:05.697 PM]: Connection[id: c74db796-5b89-41fe-b0b4-bc33fd96e8a9] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:24:05.698 PM]: Connection[id: c74db796-5b89-41fe-b0b4-bc33fd96e8a9] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:24:05.699 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:24:05.703 PM]: No client config detected."}
+{"level":"INFO","message":"[12:24:05.704 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:24:05.705 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:24:06.364 PM]: Connection[id: c74db796-5b89-41fe-b0b4-bc33fd96e8a9] - connection established successfully after 666.84 milliseconds"}
+{"level":"INFO","message":"[12:24:07.740 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:24:07.754 PM]: Creating Connection[id: d5b496a1-2ef3-48ab-86b0-a05672a40c48] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:24:07.754 PM]: Connection[id: d5b496a1-2ef3-48ab-86b0-a05672a40c48] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:24:07.755 PM]: Connection[id: d5b496a1-2ef3-48ab-86b0-a05672a40c48] - connection object created successfully."}
+{"level":"INFO","message":"[12:24:07.759 PM]: Connection[id: d5b496a1-2ef3-48ab-86b0-a05672a40c48] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:24:07.761 PM]: Connection[id: d5b496a1-2ef3-48ab-86b0-a05672a40c48] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:24:07.761 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:24:07.765 PM]: No client config detected."}
+{"level":"INFO","message":"[12:24:07.765 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:24:07.766 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:24:08.245 PM]: Connection[id: d5b496a1-2ef3-48ab-86b0-a05672a40c48] - connection established successfully after 485.5 milliseconds"}
+{"level":"INFO","message":"[12:24:10.192 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:24:10.206 PM]: Creating Connection[id: b0cdd31e-628a-4cb4-8351-178ec85503d3] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:24:10.207 PM]: Connection[id: b0cdd31e-628a-4cb4-8351-178ec85503d3] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:24:10.208 PM]: Connection[id: b0cdd31e-628a-4cb4-8351-178ec85503d3] - connection object created successfully."}
+{"level":"INFO","message":"[12:24:10.213 PM]: Connection[id: b0cdd31e-628a-4cb4-8351-178ec85503d3] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:24:10.214 PM]: Connection[id: b0cdd31e-628a-4cb4-8351-178ec85503d3] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:24:10.214 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:24:10.218 PM]: No client config detected."}
+{"level":"INFO","message":"[12:24:10.218 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:24:10.219 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:24:10.686 PM]: Connection[id: b0cdd31e-628a-4cb4-8351-178ec85503d3] - connection established successfully after 473.77 milliseconds"}
+{"level":"INFO","message":"[12:24:15.747 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:24:15.761 PM]: Creating Connection[id: 524619bd-89ef-41f1-bcbe-0822d04187dd] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:24:15.762 PM]: Connection[id: 524619bd-89ef-41f1-bcbe-0822d04187dd] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:24:15.762 PM]: Connection[id: 524619bd-89ef-41f1-bcbe-0822d04187dd] - connection object created successfully."}
+{"level":"INFO","message":"[12:24:15.767 PM]: Connection[id: 524619bd-89ef-41f1-bcbe-0822d04187dd] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:24:15.768 PM]: Connection[id: 524619bd-89ef-41f1-bcbe-0822d04187dd] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:24:15.768 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:24:15.772 PM]: No client config detected."}
+{"level":"INFO","message":"[12:24:15.772 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:24:15.773 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:24:16.440 PM]: Connection[id: 524619bd-89ef-41f1-bcbe-0822d04187dd] - connection established successfully after 673.47 milliseconds"}
+{"level":"INFO","message":"[12:24:36.756 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:24:36.772 PM]: Creating Connection[id: 3891137f-6277-432d-baf3-887d66d1267a] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:24:36.773 PM]: Connection[id: 3891137f-6277-432d-baf3-887d66d1267a] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:24:36.773 PM]: Connection[id: 3891137f-6277-432d-baf3-887d66d1267a] - connection object created successfully."}
+{"level":"INFO","message":"[12:24:36.778 PM]: Connection[id: 3891137f-6277-432d-baf3-887d66d1267a] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:24:36.779 PM]: Connection[id: 3891137f-6277-432d-baf3-887d66d1267a] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:24:36.780 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:24:36.784 PM]: No client config detected."}
+{"level":"INFO","message":"[12:24:36.784 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:24:36.785 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:24:37.628 PM]: Connection[id: 3891137f-6277-432d-baf3-887d66d1267a] - connection established successfully after 850.27 milliseconds"}
+{"level":"INFO","message":"[12:27:29.440 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:27:29.459 PM]: Creating Connection[id: f006d22a-ca49-44eb-928e-85321e779090] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:27:29.460 PM]: Connection[id: f006d22a-ca49-44eb-928e-85321e779090] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:27:29.461 PM]: Connection[id: f006d22a-ca49-44eb-928e-85321e779090] - connection object created successfully."}
+{"level":"INFO","message":"[12:27:29.465 PM]: Connection[id: f006d22a-ca49-44eb-928e-85321e779090] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:27:29.466 PM]: Connection[id: f006d22a-ca49-44eb-928e-85321e779090] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:27:29.467 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:27:29.471 PM]: No client config detected."}
+{"level":"INFO","message":"[12:27:29.471 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:27:29.472 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:27:30.393 PM]: Connection[id: f006d22a-ca49-44eb-928e-85321e779090] - connection established successfully after 927.3 milliseconds"}
+{"level":"INFO","message":"[12:27:51.617 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:27:51.630 PM]: Creating Connection[id: 7881c837-0d73-4aae-aa81-c7f2da96715f] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:27:51.631 PM]: Connection[id: 7881c837-0d73-4aae-aa81-c7f2da96715f] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:27:51.632 PM]: Connection[id: 7881c837-0d73-4aae-aa81-c7f2da96715f] - connection object created successfully."}
+{"level":"INFO","message":"[12:27:51.637 PM]: Connection[id: 7881c837-0d73-4aae-aa81-c7f2da96715f] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:27:51.638 PM]: Connection[id: 7881c837-0d73-4aae-aa81-c7f2da96715f] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:27:51.638 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:27:51.642 PM]: No client config detected."}
+{"level":"INFO","message":"[12:27:51.642 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:27:51.643 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:27:52.368 PM]: Connection[id: 7881c837-0d73-4aae-aa81-c7f2da96715f] - connection established successfully after 731.01 milliseconds"}
+{"level":"INFO","message":"[12:29:55.789 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:29:55.803 PM]: Creating Connection[id: 7f0580c7-d2b2-45e6-ab21-539241191f63] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:29:55.804 PM]: Connection[id: 7f0580c7-d2b2-45e6-ab21-539241191f63] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:29:55.804 PM]: Connection[id: 7f0580c7-d2b2-45e6-ab21-539241191f63] - connection object created successfully."}
+{"level":"INFO","message":"[12:29:55.809 PM]: Connection[id: 7f0580c7-d2b2-45e6-ab21-539241191f63] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:29:55.810 PM]: Connection[id: 7f0580c7-d2b2-45e6-ab21-539241191f63] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:29:55.810 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:29:55.815 PM]: No client config detected."}
+{"level":"INFO","message":"[12:29:55.816 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:29:55.817 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:29:56.557 PM]: Connection[id: 7f0580c7-d2b2-45e6-ab21-539241191f63] - connection established successfully after 748.71 milliseconds"}
+{"level":"INFO","message":"[12:29:57.631 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:29:57.644 PM]: Creating Connection[id: 8b0fdfbc-d424-4e4f-bbb4-575c8b6b6cfd] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:29:57.645 PM]: Connection[id: 8b0fdfbc-d424-4e4f-bbb4-575c8b6b6cfd] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:29:57.645 PM]: Connection[id: 8b0fdfbc-d424-4e4f-bbb4-575c8b6b6cfd] - connection object created successfully."}
+{"level":"INFO","message":"[12:29:57.650 PM]: Connection[id: 8b0fdfbc-d424-4e4f-bbb4-575c8b6b6cfd] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:29:57.651 PM]: Connection[id: 8b0fdfbc-d424-4e4f-bbb4-575c8b6b6cfd] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:29:57.652 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:29:57.655 PM]: No client config detected."}
+{"level":"INFO","message":"[12:29:57.656 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:29:57.656 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:29:59.146 PM]: Connection[id: 8b0fdfbc-d424-4e4f-bbb4-575c8b6b6cfd] - connection established successfully after 1495.47 milliseconds"}
+{"level":"INFO","message":"[12:30:33.581 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:30:33.595 PM]: Creating Connection[id: 856e93b8-3b6f-4882-a712-bac20da5d971] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:30:33.596 PM]: Connection[id: 856e93b8-3b6f-4882-a712-bac20da5d971] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:30:33.597 PM]: Connection[id: 856e93b8-3b6f-4882-a712-bac20da5d971] - connection object created successfully."}
+{"level":"INFO","message":"[12:30:33.602 PM]: Connection[id: 856e93b8-3b6f-4882-a712-bac20da5d971] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:30:33.603 PM]: Connection[id: 856e93b8-3b6f-4882-a712-bac20da5d971] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:30:33.604 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:30:33.607 PM]: No client config detected."}
+{"level":"INFO","message":"[12:30:33.607 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:30:33.608 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:30:34.589 PM]: Connection[id: 856e93b8-3b6f-4882-a712-bac20da5d971] - connection established successfully after 987.07 milliseconds"}
+{"level":"INFO","message":"[12:30:37.557 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:30:37.570 PM]: Creating Connection[id: 2cb4da87-db0e-406d-9a45-e4016f6c5fad] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:30:37.571 PM]: Connection[id: 2cb4da87-db0e-406d-9a45-e4016f6c5fad] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:30:37.572 PM]: Connection[id: 2cb4da87-db0e-406d-9a45-e4016f6c5fad] - connection object created successfully."}
+{"level":"INFO","message":"[12:30:37.576 PM]: Connection[id: 2cb4da87-db0e-406d-9a45-e4016f6c5fad] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:30:37.577 PM]: Connection[id: 2cb4da87-db0e-406d-9a45-e4016f6c5fad] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:30:37.578 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:30:37.581 PM]: No client config detected."}
+{"level":"INFO","message":"[12:30:37.581 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:30:37.582 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:30:38.347 PM]: Connection[id: 2cb4da87-db0e-406d-9a45-e4016f6c5fad] - connection established successfully after 770.78 milliseconds"}
+{"level":"INFO","message":"[12:30:41.380 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:30:41.393 PM]: Creating Connection[id: 5df747f6-0b30-4463-95b2-a92c6bb7f69e] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:30:41.394 PM]: Connection[id: 5df747f6-0b30-4463-95b2-a92c6bb7f69e] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:30:41.394 PM]: Connection[id: 5df747f6-0b30-4463-95b2-a92c6bb7f69e] - connection object created successfully."}
+{"level":"INFO","message":"[12:30:41.399 PM]: Connection[id: 5df747f6-0b30-4463-95b2-a92c6bb7f69e] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:30:41.400 PM]: Connection[id: 5df747f6-0b30-4463-95b2-a92c6bb7f69e] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:30:41.401 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:30:41.404 PM]: No client config detected."}
+{"level":"INFO","message":"[12:30:41.405 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:30:41.407 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:30:41.956 PM]: Connection[id: 5df747f6-0b30-4463-95b2-a92c6bb7f69e] - connection established successfully after 557.12 milliseconds"}
+{"level":"INFO","message":"[12:30:43.768 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:30:43.784 PM]: Creating Connection[id: 2591f06a-d99a-45f5-94c6-64439db98c50] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:30:43.785 PM]: Connection[id: 2591f06a-d99a-45f5-94c6-64439db98c50] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:30:43.785 PM]: Connection[id: 2591f06a-d99a-45f5-94c6-64439db98c50] - connection object created successfully."}
+{"level":"INFO","message":"[12:30:43.790 PM]: Connection[id: 2591f06a-d99a-45f5-94c6-64439db98c50] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:30:43.791 PM]: Connection[id: 2591f06a-d99a-45f5-94c6-64439db98c50] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:30:43.792 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:30:43.795 PM]: No client config detected."}
+{"level":"INFO","message":"[12:30:43.796 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:30:43.797 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:30:44.294 PM]: Connection[id: 2591f06a-d99a-45f5-94c6-64439db98c50] - connection established successfully after 503.74 milliseconds"}
+{"level":"INFO","message":"[12:30:47.541 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:30:47.554 PM]: Creating Connection[id: 33260bfe-48d6-4495-8c2c-6796bc2aaa5c] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:30:47.554 PM]: Connection[id: 33260bfe-48d6-4495-8c2c-6796bc2aaa5c] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:30:47.555 PM]: Connection[id: 33260bfe-48d6-4495-8c2c-6796bc2aaa5c] - connection object created successfully."}
+{"level":"INFO","message":"[12:30:47.560 PM]: Connection[id: 33260bfe-48d6-4495-8c2c-6796bc2aaa5c] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:30:47.561 PM]: Connection[id: 33260bfe-48d6-4495-8c2c-6796bc2aaa5c] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:30:47.561 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:30:47.565 PM]: No client config detected."}
+{"level":"INFO","message":"[12:30:47.565 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:30:47.566 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:30:48.030 PM]: Connection[id: 33260bfe-48d6-4495-8c2c-6796bc2aaa5c] - connection established successfully after 470.17 milliseconds"}
+{"level":"INFO","message":"[12:30:51.827 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:30:51.840 PM]: Creating Connection[id: 7ac83d3f-4ffe-45ad-9c0a-dd7358cbbab4] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:30:51.841 PM]: Connection[id: 7ac83d3f-4ffe-45ad-9c0a-dd7358cbbab4] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:30:51.841 PM]: Connection[id: 7ac83d3f-4ffe-45ad-9c0a-dd7358cbbab4] - connection object created successfully."}
+{"level":"INFO","message":"[12:30:51.846 PM]: Connection[id: 7ac83d3f-4ffe-45ad-9c0a-dd7358cbbab4] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:30:51.847 PM]: Connection[id: 7ac83d3f-4ffe-45ad-9c0a-dd7358cbbab4] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:30:51.847 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:30:51.851 PM]: No client config detected."}
+{"level":"INFO","message":"[12:30:51.851 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:30:51.852 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:30:52.932 PM]: Connection[id: 7ac83d3f-4ffe-45ad-9c0a-dd7358cbbab4] - connection established successfully after 1086.15 milliseconds"}
+{"level":"INFO","message":"[12:30:57.871 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:30:57.886 PM]: Creating Connection[id: ab50366f-4cc9-44dc-8559-559fa9aa6cb2] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:30:57.887 PM]: Connection[id: ab50366f-4cc9-44dc-8559-559fa9aa6cb2] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:30:57.887 PM]: Connection[id: ab50366f-4cc9-44dc-8559-559fa9aa6cb2] - connection object created successfully."}
+{"level":"INFO","message":"[12:30:57.892 PM]: Connection[id: ab50366f-4cc9-44dc-8559-559fa9aa6cb2] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:30:57.893 PM]: Connection[id: ab50366f-4cc9-44dc-8559-559fa9aa6cb2] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:30:57.894 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:30:57.899 PM]: No client config detected."}
+{"level":"INFO","message":"[12:30:57.900 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:30:57.902 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:30:58.682 PM]: Connection[id: ab50366f-4cc9-44dc-8559-559fa9aa6cb2] - connection established successfully after 789.56 milliseconds"}
+{"level":"INFO","message":"[12:31:02.537 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:31:02.551 PM]: Creating Connection[id: 6e0a064c-b86b-42ec-855d-a2016cb0943c] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:31:02.552 PM]: Connection[id: 6e0a064c-b86b-42ec-855d-a2016cb0943c] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:31:02.552 PM]: Connection[id: 6e0a064c-b86b-42ec-855d-a2016cb0943c] - connection object created successfully."}
+{"level":"INFO","message":"[12:31:02.557 PM]: Connection[id: 6e0a064c-b86b-42ec-855d-a2016cb0943c] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:31:02.558 PM]: Connection[id: 6e0a064c-b86b-42ec-855d-a2016cb0943c] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:31:02.559 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:31:02.563 PM]: No client config detected."}
+{"level":"INFO","message":"[12:31:02.564 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:31:02.565 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:31:03.088 PM]: Connection[id: 6e0a064c-b86b-42ec-855d-a2016cb0943c] - connection established successfully after 531.28 milliseconds"}
+{"level":"INFO","message":"[12:31:09.461 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:31:09.475 PM]: Creating Connection[id: fae17e94-f286-42df-8c7c-c1037f72492a] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:31:09.475 PM]: Connection[id: fae17e94-f286-42df-8c7c-c1037f72492a] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:31:09.476 PM]: Connection[id: fae17e94-f286-42df-8c7c-c1037f72492a] - connection object created successfully."}
+{"level":"INFO","message":"[12:31:09.481 PM]: Connection[id: fae17e94-f286-42df-8c7c-c1037f72492a] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:31:09.482 PM]: Connection[id: fae17e94-f286-42df-8c7c-c1037f72492a] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:31:09.482 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:31:09.486 PM]: No client config detected."}
+{"level":"INFO","message":"[12:31:09.487 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:31:09.487 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:31:09.977 PM]: Connection[id: fae17e94-f286-42df-8c7c-c1037f72492a] - connection established successfully after 496.63 milliseconds"}
+{"level":"INFO","message":"[12:31:15.553 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:31:15.566 PM]: Creating Connection[id: 4869eaba-5eaf-4685-9bc8-43a27a1a1609] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:31:15.566 PM]: Connection[id: 4869eaba-5eaf-4685-9bc8-43a27a1a1609] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:31:15.567 PM]: Connection[id: 4869eaba-5eaf-4685-9bc8-43a27a1a1609] - connection object created successfully."}
+{"level":"INFO","message":"[12:31:15.572 PM]: Connection[id: 4869eaba-5eaf-4685-9bc8-43a27a1a1609] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:31:15.572 PM]: Connection[id: 4869eaba-5eaf-4685-9bc8-43a27a1a1609] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:31:15.573 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:31:15.576 PM]: No client config detected."}
+{"level":"INFO","message":"[12:31:15.576 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:31:15.577 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:31:16.219 PM]: Connection[id: 4869eaba-5eaf-4685-9bc8-43a27a1a1609] - connection established successfully after 647.01 milliseconds"}
+{"level":"INFO","message":"[12:31:19.251 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:31:19.266 PM]: Creating Connection[id: 2ade35f4-f191-435d-ab27-b92f43ad6d7b] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:31:19.267 PM]: Connection[id: 2ade35f4-f191-435d-ab27-b92f43ad6d7b] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:31:19.268 PM]: Connection[id: 2ade35f4-f191-435d-ab27-b92f43ad6d7b] - connection object created successfully."}
+{"level":"INFO","message":"[12:31:19.273 PM]: Connection[id: 2ade35f4-f191-435d-ab27-b92f43ad6d7b] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:31:19.274 PM]: Connection[id: 2ade35f4-f191-435d-ab27-b92f43ad6d7b] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:31:19.275 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:31:19.279 PM]: No client config detected."}
+{"level":"INFO","message":"[12:31:19.279 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:31:19.280 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:31:20.007 PM]: Connection[id: 2ade35f4-f191-435d-ab27-b92f43ad6d7b] - connection established successfully after 733.7 milliseconds"}
+{"level":"INFO","message":"[12:32:31.466 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:32:31.481 PM]: Creating Connection[id: 599ee5d6-d577-4290-a3c8-104e8af1e029] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:32:31.482 PM]: Connection[id: 599ee5d6-d577-4290-a3c8-104e8af1e029] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:32:31.483 PM]: Connection[id: 599ee5d6-d577-4290-a3c8-104e8af1e029] - connection object created successfully."}
+{"level":"INFO","message":"[12:32:31.488 PM]: Connection[id: 599ee5d6-d577-4290-a3c8-104e8af1e029] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:32:31.490 PM]: Connection[id: 599ee5d6-d577-4290-a3c8-104e8af1e029] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:32:31.491 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:32:31.496 PM]: No client config detected."}
+{"level":"INFO","message":"[12:32:31.496 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:32:31.497 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:32:32.407 PM]: Connection[id: 599ee5d6-d577-4290-a3c8-104e8af1e029] - connection established successfully after 918.2 milliseconds"}
+{"level":"INFO","message":"[12:32:34.025 PM]: Creating new connection object"}
+{"level":"INFO","message":"[12:32:34.041 PM]: Creating Connection[id: 7d13fd8b-bb7c-44b2-b46e-a64ef87f6d01] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[12:32:34.042 PM]: Connection[id: 7d13fd8b-bb7c-44b2-b46e-a64ef87f6d01] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[12:32:34.047 PM]: Connection[id: 7d13fd8b-bb7c-44b2-b46e-a64ef87f6d01] - connection object created successfully."}
+{"level":"INFO","message":"[12:32:34.053 PM]: Connection[id: 7d13fd8b-bb7c-44b2-b46e-a64ef87f6d01] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[12:32:34.054 PM]: Connection[id: 7d13fd8b-bb7c-44b2-b46e-a64ef87f6d01] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[12:32:34.055 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[12:32:34.059 PM]: No client config detected."}
+{"level":"INFO","message":"[12:32:34.060 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[12:32:34.062 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[12:32:34.925 PM]: Connection[id: 7d13fd8b-bb7c-44b2-b46e-a64ef87f6d01] - connection established successfully after 872.66 milliseconds"}
+{"level":"INFO","message":"[1:00:49.055 PM]: Creating new connection object"}
+{"level":"INFO","message":"[1:00:49.074 PM]: Creating Connection[id: 2b746be7-9a4e-42cc-8e38-852dbfbf96c5] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[1:00:49.075 PM]: Connection[id: 2b746be7-9a4e-42cc-8e38-852dbfbf96c5] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[1:00:49.077 PM]: Connection[id: 2b746be7-9a4e-42cc-8e38-852dbfbf96c5] - connection object created successfully."}
+{"level":"INFO","message":"[1:00:49.085 PM]: Connection[id: 2b746be7-9a4e-42cc-8e38-852dbfbf96c5] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[1:00:49.086 PM]: Connection[id: 2b746be7-9a4e-42cc-8e38-852dbfbf96c5] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[1:00:49.086 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[1:00:49.093 PM]: No client config detected."}
+{"level":"INFO","message":"[1:00:49.094 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[1:00:49.095 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[1:00:50.061 PM]: Connection[id: 2b746be7-9a4e-42cc-8e38-852dbfbf96c5] - connection established successfully after 975.97 milliseconds"}
+{"level":"INFO","message":"[2:42:14.094 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:42:14.113 PM]: Creating Connection[id: 8788cdfa-f335-4cc5-9beb-3dd54a642f51] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:42:14.114 PM]: Connection[id: 8788cdfa-f335-4cc5-9beb-3dd54a642f51] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:42:14.115 PM]: Connection[id: 8788cdfa-f335-4cc5-9beb-3dd54a642f51] - connection object created successfully."}
+{"level":"INFO","message":"[2:42:14.122 PM]: Connection[id: 8788cdfa-f335-4cc5-9beb-3dd54a642f51] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:42:14.123 PM]: Connection[id: 8788cdfa-f335-4cc5-9beb-3dd54a642f51] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:42:14.124 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:42:14.130 PM]: No client config detected."}
+{"level":"INFO","message":"[2:42:14.131 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:42:14.132 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:42:14.975 PM]: Connection[id: 8788cdfa-f335-4cc5-9beb-3dd54a642f51] - connection established successfully after 853.54 milliseconds"}
+{"level":"INFO","message":"[2:42:17.522 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:42:17.536 PM]: Creating Connection[id: 1561606b-52ec-4301-a973-b878b1215f79] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:42:17.537 PM]: Connection[id: 1561606b-52ec-4301-a973-b878b1215f79] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:42:17.537 PM]: Connection[id: 1561606b-52ec-4301-a973-b878b1215f79] - connection object created successfully."}
+{"level":"INFO","message":"[2:42:17.543 PM]: Connection[id: 1561606b-52ec-4301-a973-b878b1215f79] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:42:17.544 PM]: Connection[id: 1561606b-52ec-4301-a973-b878b1215f79] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:42:17.545 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:42:17.549 PM]: No client config detected."}
+{"level":"INFO","message":"[2:42:17.549 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:42:17.550 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:42:18.205 PM]: Connection[id: 1561606b-52ec-4301-a973-b878b1215f79] - connection established successfully after 662.51 milliseconds"}
+{"level":"INFO","message":"[2:56:28.636 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:56:28.650 PM]: Creating Connection[id: f3994fae-6fea-4d6b-bcf8-022f1d55fbd6] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:56:28.651 PM]: Connection[id: f3994fae-6fea-4d6b-bcf8-022f1d55fbd6] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:56:28.651 PM]: Connection[id: f3994fae-6fea-4d6b-bcf8-022f1d55fbd6] - connection object created successfully."}
+{"level":"INFO","message":"[2:56:28.656 PM]: Connection[id: f3994fae-6fea-4d6b-bcf8-022f1d55fbd6] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:56:28.657 PM]: Connection[id: f3994fae-6fea-4d6b-bcf8-022f1d55fbd6] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:56:28.658 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:56:28.662 PM]: No client config detected."}
+{"level":"INFO","message":"[2:56:28.662 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:56:28.663 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:56:29.453 PM]: Connection[id: f3994fae-6fea-4d6b-bcf8-022f1d55fbd6] - connection established successfully after 796.4 milliseconds"}
+{"level":"INFO","message":"[2:57:01.625 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:01.638 PM]: Creating Connection[id: 82732856-b255-480a-8055-fcc2b42469e2] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:01.639 PM]: Connection[id: 82732856-b255-480a-8055-fcc2b42469e2] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:01.640 PM]: Connection[id: 82732856-b255-480a-8055-fcc2b42469e2] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:01.644 PM]: Connection[id: 82732856-b255-480a-8055-fcc2b42469e2] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:01.645 PM]: Connection[id: 82732856-b255-480a-8055-fcc2b42469e2] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:01.646 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:01.650 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:01.650 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:01.651 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:02.988 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:03.002 PM]: Creating Connection[id: 752419fa-78d8-44db-a088-5340cd4644aa] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:03.003 PM]: Connection[id: 752419fa-78d8-44db-a088-5340cd4644aa] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:03.003 PM]: Connection[id: 752419fa-78d8-44db-a088-5340cd4644aa] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:03.008 PM]: Connection[id: 752419fa-78d8-44db-a088-5340cd4644aa] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:03.010 PM]: Connection[id: 752419fa-78d8-44db-a088-5340cd4644aa] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:03.010 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:03.015 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:03.016 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:03.017 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:03.868 PM]: Connection[id: 752419fa-78d8-44db-a088-5340cd4644aa] - connection established successfully after 859.5 milliseconds"}
+{"level":"INFO","message":"[2:57:05.855 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:05.869 PM]: Creating Connection[id: 7d75a264-c31b-48ee-91c3-cc23bf129ce6] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:05.870 PM]: Connection[id: 7d75a264-c31b-48ee-91c3-cc23bf129ce6] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:05.870 PM]: Connection[id: 7d75a264-c31b-48ee-91c3-cc23bf129ce6] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:05.876 PM]: Connection[id: 7d75a264-c31b-48ee-91c3-cc23bf129ce6] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:05.877 PM]: Connection[id: 7d75a264-c31b-48ee-91c3-cc23bf129ce6] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:05.877 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:05.882 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:05.882 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:05.883 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:06.340 PM]: Connection[id: 7d75a264-c31b-48ee-91c3-cc23bf129ce6] - connection established successfully after 464.19 milliseconds"}
+{"level":"INFO","message":"[2:57:08.005 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:08.025 PM]: Creating Connection[id: 02ffd194-1a91-4a5d-b728-5163e83109ae] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:08.026 PM]: Connection[id: 02ffd194-1a91-4a5d-b728-5163e83109ae] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:08.027 PM]: Connection[id: 02ffd194-1a91-4a5d-b728-5163e83109ae] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:08.036 PM]: Connection[id: 02ffd194-1a91-4a5d-b728-5163e83109ae] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:08.037 PM]: Connection[id: 02ffd194-1a91-4a5d-b728-5163e83109ae] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:08.038 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:08.044 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:08.045 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:08.046 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:08.532 PM]: Connection[id: 02ffd194-1a91-4a5d-b728-5163e83109ae] - connection established successfully after 496.28 milliseconds"}
+{"level":"INFO","message":"[2:57:10.658 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:10.671 PM]: Creating Connection[id: efe52a40-4892-4d45-b067-2716df2e7850] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:10.672 PM]: Connection[id: efe52a40-4892-4d45-b067-2716df2e7850] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:10.673 PM]: Connection[id: efe52a40-4892-4d45-b067-2716df2e7850] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:10.677 PM]: Connection[id: efe52a40-4892-4d45-b067-2716df2e7850] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:10.678 PM]: Connection[id: efe52a40-4892-4d45-b067-2716df2e7850] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:10.679 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:10.682 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:10.682 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:10.683 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:11.374 PM]: Connection[id: efe52a40-4892-4d45-b067-2716df2e7850] - connection established successfully after 697.26 milliseconds"}
+{"level":"INFO","message":"[2:57:17.352 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:17.365 PM]: Creating Connection[id: ae5c1675-4265-4b87-9729-1c3f3f25ce14] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:17.366 PM]: Connection[id: ae5c1675-4265-4b87-9729-1c3f3f25ce14] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:17.366 PM]: Connection[id: ae5c1675-4265-4b87-9729-1c3f3f25ce14] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:17.371 PM]: Connection[id: ae5c1675-4265-4b87-9729-1c3f3f25ce14] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:17.372 PM]: Connection[id: ae5c1675-4265-4b87-9729-1c3f3f25ce14] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:17.373 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:17.377 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:17.378 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:17.379 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:17.940 PM]: Connection[id: ae5c1675-4265-4b87-9729-1c3f3f25ce14] - connection established successfully after 569.33 milliseconds"}
+{"level":"INFO","message":"[2:57:19.072 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:19.085 PM]: Creating Connection[id: b77507cd-222b-4fbd-bf5b-1ec7250b9847] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:19.086 PM]: Connection[id: b77507cd-222b-4fbd-bf5b-1ec7250b9847] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:19.087 PM]: Connection[id: b77507cd-222b-4fbd-bf5b-1ec7250b9847] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:19.092 PM]: Connection[id: b77507cd-222b-4fbd-bf5b-1ec7250b9847] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:19.093 PM]: Connection[id: b77507cd-222b-4fbd-bf5b-1ec7250b9847] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:19.094 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:19.097 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:19.098 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:19.098 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:19.550 PM]: Connection[id: b77507cd-222b-4fbd-bf5b-1ec7250b9847] - connection established successfully after 457.53 milliseconds"}
+{"level":"INFO","message":"[2:57:22.521 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:22.535 PM]: Creating Connection[id: bc2c964b-bf21-4dcd-87d8-c8700c79b702] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:22.535 PM]: Connection[id: bc2c964b-bf21-4dcd-87d8-c8700c79b702] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:22.536 PM]: Connection[id: bc2c964b-bf21-4dcd-87d8-c8700c79b702] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:22.541 PM]: Connection[id: bc2c964b-bf21-4dcd-87d8-c8700c79b702] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:22.542 PM]: Connection[id: bc2c964b-bf21-4dcd-87d8-c8700c79b702] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:22.543 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:22.547 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:22.548 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:22.549 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:23.631 PM]: Connection[id: bc2c964b-bf21-4dcd-87d8-c8700c79b702] - connection established successfully after 1089.71 milliseconds"}
+{"level":"INFO","message":"[2:57:32.087 PM]: Creating new connection object"}
+{"level":"INFO","message":"[2:57:32.106 PM]: Creating Connection[id: cee1e1ac-6f8e-494a-8472-2904c1ea94cb] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[2:57:32.106 PM]: Connection[id: cee1e1ac-6f8e-494a-8472-2904c1ea94cb] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[2:57:32.107 PM]: Connection[id: cee1e1ac-6f8e-494a-8472-2904c1ea94cb] - connection object created successfully."}
+{"level":"INFO","message":"[2:57:32.113 PM]: Connection[id: cee1e1ac-6f8e-494a-8472-2904c1ea94cb] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[2:57:32.115 PM]: Connection[id: cee1e1ac-6f8e-494a-8472-2904c1ea94cb] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[2:57:32.116 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[2:57:32.120 PM]: No client config detected."}
+{"level":"INFO","message":"[2:57:32.120 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[2:57:32.121 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[2:57:32.848 PM]: Connection[id: cee1e1ac-6f8e-494a-8472-2904c1ea94cb] - connection established successfully after 734.35 milliseconds"}
+{"level":"INFO","message":"[3:04:01.969 PM]: Creating new connection object"}
+{"level":"INFO","message":"[3:04:01.982 PM]: Creating Connection[id: a69c368a-d09c-4600-97d6-a7358d82c7a5] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[3:04:01.983 PM]: Connection[id: a69c368a-d09c-4600-97d6-a7358d82c7a5] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[3:04:01.983 PM]: Connection[id: a69c368a-d09c-4600-97d6-a7358d82c7a5] - connection object created successfully."}
+{"level":"INFO","message":"[3:04:01.989 PM]: Connection[id: a69c368a-d09c-4600-97d6-a7358d82c7a5] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[3:04:01.991 PM]: Connection[id: a69c368a-d09c-4600-97d6-a7358d82c7a5] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[3:04:01.991 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[3:04:01.995 PM]: No client config detected."}
+{"level":"INFO","message":"[3:04:01.995 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[3:04:01.996 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[3:04:02.809 PM]: Connection[id: a69c368a-d09c-4600-97d6-a7358d82c7a5] - connection established successfully after 820.25 milliseconds"}
+{"level":"INFO","message":"[3:04:34.524 PM]: Creating new connection object"}
+{"level":"INFO","message":"[3:04:34.548 PM]: Creating Connection[id: 97472f96-e344-48d4-a1b3-50a3633152af] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[3:04:34.549 PM]: Connection[id: 97472f96-e344-48d4-a1b3-50a3633152af] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[3:04:34.550 PM]: Connection[id: 97472f96-e344-48d4-a1b3-50a3633152af] - connection object created successfully."}
+{"level":"INFO","message":"[3:04:34.557 PM]: Connection[id: 97472f96-e344-48d4-a1b3-50a3633152af] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[3:04:34.558 PM]: Connection[id: 97472f96-e344-48d4-a1b3-50a3633152af] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[3:04:34.559 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[3:04:34.563 PM]: No client config detected."}
+{"level":"INFO","message":"[3:04:34.563 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[3:04:34.565 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[3:04:35.464 PM]: Connection[id: 97472f96-e344-48d4-a1b3-50a3633152af] - connection established successfully after 907.72 milliseconds"}
+{"level":"INFO","message":"[3:07:10.090 PM]: Creating new connection object"}
+{"level":"INFO","message":"[3:07:10.110 PM]: Creating Connection[id: 8b7d31a8-d8d8-4102-b3ad-66c353ef7771] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[3:07:10.111 PM]: Connection[id: 8b7d31a8-d8d8-4102-b3ad-66c353ef7771] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[3:07:10.114 PM]: Connection[id: 8b7d31a8-d8d8-4102-b3ad-66c353ef7771] - connection object created successfully."}
+{"level":"INFO","message":"[3:07:10.124 PM]: Connection[id: 8b7d31a8-d8d8-4102-b3ad-66c353ef7771] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[3:07:10.125 PM]: Connection[id: 8b7d31a8-d8d8-4102-b3ad-66c353ef7771] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[3:07:10.126 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[3:07:10.133 PM]: No client config detected."}
+{"level":"INFO","message":"[3:07:10.134 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[3:07:10.135 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[3:07:11.286 PM]: Connection[id: 8b7d31a8-d8d8-4102-b3ad-66c353ef7771] - connection established successfully after 1162.44 milliseconds"}
+{"level":"INFO","message":"[3:07:25.959 PM]: Creating new connection object"}
+{"level":"INFO","message":"[3:07:25.987 PM]: Creating Connection[id: 29801145-1a7d-45b8-a328-96d452019be3] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[3:07:25.988 PM]: Connection[id: 29801145-1a7d-45b8-a328-96d452019be3] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[3:07:25.989 PM]: Connection[id: 29801145-1a7d-45b8-a328-96d452019be3] - connection object created successfully."}
+{"level":"INFO","message":"[3:07:25.995 PM]: Connection[id: 29801145-1a7d-45b8-a328-96d452019be3] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[3:07:25.997 PM]: Connection[id: 29801145-1a7d-45b8-a328-96d452019be3] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[3:07:25.997 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[3:07:26.002 PM]: No client config detected."}
+{"level":"INFO","message":"[3:07:26.003 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[3:07:26.005 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[3:07:26.772 PM]: Connection[id: 29801145-1a7d-45b8-a328-96d452019be3] - connection established successfully after 777.17 milliseconds"}
+{"level":"INFO","message":"[3:07:44.783 PM]: Creating new connection object"}
+{"level":"INFO","message":"[3:07:44.798 PM]: Creating Connection[id: 11da8008-e557-486e-99ad-45b6683bd1de] with host: EALGYLK-TB48121.snowflakecomputing.com, account: EALGYLK-TB48121, accessUrl: https://EALGYLK-TB48121.snowflakecomputing.com, user: JAYAKUMAR, role: ACCOUNTADMIN, database: ANALYTICS, schema: ANALYTICS_SCHEMA, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: win32, os version: 10.0.26200"}
+{"level":"INFO","message":"[3:07:44.799 PM]: Connection[id: 11da8008-e557-486e-99ad-45b6683bd1de] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.3, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[3:07:44.800 PM]: Connection[id: 11da8008-e557-486e-99ad-45b6683bd1de] - connection object created successfully."}
+{"level":"INFO","message":"[3:07:44.805 PM]: Connection[id: 11da8008-e557-486e-99ad-45b6683bd1de] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[3:07:44.806 PM]: Connection[id: 11da8008-e557-486e-99ad-45b6683bd1de] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[3:07:44.807 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[3:07:44.813 PM]: No client config detected."}
+{"level":"INFO","message":"[3:07:44.813 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[3:07:44.814 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[3:07:45.549 PM]: Connection[id: 11da8008-e557-486e-99ad-45b6683bd1de] - connection established successfully after 743.8 milliseconds"}

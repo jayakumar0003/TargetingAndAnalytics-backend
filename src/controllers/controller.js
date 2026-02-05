@@ -40,17 +40,17 @@ export const updateByPackageName = async (req, res) => {
     const values = [];
 
     for (const [key, value] of Object.entries(body)) {
-      // Skip primary key (used only in WHERE)
+  
       if (
-        key === "RADIA_OR_PRISMA_PACKAGE_NAME" ||
-        key === "PLACEMENTNAME" ||
-        key === "BUY_MODEL" 
+        key === "TACTIC" ||
+        key === "BUY_MODEL" ||
+        key === "BRAND_SAFETY" ||
+        key === "BLS_MEASUREMENT" ||
+        key === "LIVE_DATE"  
       ) {
-        continue;
+        updates.push(`${key} = ?`);
+        values.push(value ?? null); // allow null updates
       }
-
-      updates.push(`${key} = ?`);
-      values.push(value ?? null); // allow null updates
     }
 
     if (updates.length === 0) {

@@ -43,7 +43,6 @@ export const updateByPackageName = async (req, res) => {
   
       if (
         key === "TACTIC" ||
-        key === "BUY_MODEL" ||
         key === "BRAND_SAFETY" ||
         key === "BLS_MEASUREMENT" ||
         key === "LIVE_DATE"  
@@ -112,7 +111,11 @@ export const updateByPackageNameAndPlacementName = async (req, res) => {
       if (
         key === "RADIA_OR_PRISMA_PACKAGE_NAME" ||
         key === "PLACEMENTNAME" ||
-        key === "BUY_MODEL" 
+        key === "BUY_MODEL" ||
+        key === "TACTIC" ||
+        key === "BRAND_SAFETY" ||
+        key === "BLS_MEASUREMENT" ||
+        key === "LIVE_DATE"  
       ) {
         continue;
       }

@@ -1,6 +1,6 @@
 import "dotenv/config";
-import app from "./app.js";
-import { connectSnowflake } from "./config/snowflake.js";
+import app from "./src/app.js";
+import { connectSnowflake } from "./src/config/snowflake.js";
 
 const PORT = process.env.PORT || 3000;
 

@@ -1,5 +1,8 @@
 import express from "express";
-import userRoutes from "./routes/user.routes.js";
+import targetingRoutes from "./routes/targeting.routes.js";
+import radiaplanRouter from "./routes/radiaplan.routes.js";
+import campaignRouter from "./routes/campaign.routes.js";
+import mediaplanRouter from "./routes/mediaplan.routes.js";
 import cors from "cors";
 
 const app = express();
@@ -17,6 +20,9 @@ app.use(
   
 app.use(express.json());
 
-app.use("/api/users", userRoutes);
+app.use("/api/targeting", targetingRoutes);
+app.use("/api/campaign", campaignRouter);
+app.use("/api/mediaplan", mediaplanRouter);
+app.use("/api/radiaplan", radiaplanRouter);
 
 export default app;

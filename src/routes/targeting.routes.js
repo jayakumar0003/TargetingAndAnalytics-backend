@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getTargeting, updateByLineItem, updateByPackageName, updateByPackageNameAndPlacementName } from "../controllers/targeting.controller.js";
+import { getTargeting, updateByPackageName, updateByPackageNameAndPlacementName } from "../controllers/targeting.controller.js";
 
 const router = Router();
 
@@ -10,7 +10,5 @@ router.put("/by-package-and-placement", updateByPackageNameAndPlacementName);
 
 // UPDATE BY PACKAGE-NAME
 router.put("/by-package", updateByPackageName)
-
-router.put("/by-line-item", updateByLineItem)
 
 export default router;

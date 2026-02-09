@@ -33,6 +33,7 @@ export const updateMediaPlanAndTargetingAnalyticsTables = async (req, res) => {
 
     const table1RequiredKeys = [
       "CLIENT",
+      "PRODUCT",
       "CAMPAIGN_ID",
       "CAMPAIGN_NAME",
       "PACKAGE",
@@ -41,7 +42,7 @@ export const updateMediaPlanAndTargetingAnalyticsTables = async (req, res) => {
 
     // STRICT validation: undefined or null only
     const missingTable1Keys = table1RequiredKeys.filter(
-      (key) => body[key] === undefined || body[key] === null
+      (key) => body[key] === undefined
     );
 
     if (missingTable1Keys.length > 0) {
@@ -58,6 +59,7 @@ export const updateMediaPlanAndTargetingAnalyticsTables = async (req, res) => {
       typeof v === "string" ? v.trim() : v;
 
     body.CLIENT = normalize(body.CLIENT);
+    body.PRODUCT = normalize(body.PRODUCT);
     body.CAMPAIGN_ID = normalize(body.CAMPAIGN_ID);
     body.CAMPAIGN_NAME = normalize(body.CAMPAIGN_NAME);
     body.PACKAGE = normalize(body.PACKAGE);
@@ -120,18 +122,41 @@ export const updateMediaPlanAndTargetingAnalyticsTables = async (req, res) => {
       });
     }
 
-    values1.push(
-      body.CLIENT,
-      body.CAMPAIGN_ID,
-      body.CAMPAIGN_NAME,
-      body.PACKAGE,
-      body.PLACMENT
-    );
+    // Add PRODUCT to values array for WHERE clause
+    values1.push(body.CLIENT);
+    values1.push(body.PRODUCT);
+    values1.push(body.CAMPAIGN_ID);
+    values1.push(body.CAMPAIGN_NAME);
+    values1.push(body.PACKAGE);
+    values1.push(body.PLACMENT);
+
+    // Build the WHERE clause condition for PRODUCT
+    // If PRODUCT is null, use "PRODUCT IS NULL", otherwise use "PRODUCT = ?"
+    const productWhereCondition = body.PRODUCT === null || body.PRODUCT === '' ? "PRODUCT IS NULL" : "PRODUCT = ?";
+    
+    // If PRODUCT is not null, we've already added it to values1, so we need to adjust
+    if (body.PRODUCT === null || body.PRODUCT === '') {
+      // Remove PRODUCT from values1 since we're not using it as a parameter
+      values1.pop(); // Remove the last value (PLACMENT)
+      values1.pop(); // Remove PACKAGE
+      values1.pop(); // Remove CAMPAIGN_NAME
+      values1.pop(); // Remove CAMPAIGN_ID
+      values1.pop(); // Remove PRODUCT
+      values1.pop(); // Remove CLIENT
+      
+      // Re-add values in correct order without PRODUCT parameter
+      values1.push(body.CLIENT);
+      values1.push(body.CAMPAIGN_ID);
+      values1.push(body.CAMPAIGN_NAME);
+      values1.push(body.PACKAGE);
+      values1.push(body.PLACMENT);
+    }
 
     const table1Query = `
       UPDATE ANALYTICS.ANALYTICS_SCHEMA.MEDIA_PLAN
       SET ${updates1.join(", ")}
       WHERE CLIENT = ?
+        ${body.PRODUCT === null || body.PRODUCT === '' ? "AND PRODUCT IS NULL" : "AND PRODUCT = ?"}
         AND CAMPAIGN_ID = ?
         AND CAMPAIGN_NAME = ?
         AND PACKAGE = ?

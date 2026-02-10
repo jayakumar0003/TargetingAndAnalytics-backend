@@ -13,6 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
+      "http://localhost:8080",
       "https://targetingandanalytics-frontend.onrender.com"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],

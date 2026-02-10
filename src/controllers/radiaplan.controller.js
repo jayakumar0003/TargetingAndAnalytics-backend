@@ -5,7 +5,6 @@ export const getRadiaplan = async (req, res) => {
     const query = `
   SELECT *
   FROM ANALYTICS.ANALYTICS_SCHEMA.RADIA_PLAN
-    LIMIT 100
 `;
     const data = await executeQuery(query);
     res.status(200).json({

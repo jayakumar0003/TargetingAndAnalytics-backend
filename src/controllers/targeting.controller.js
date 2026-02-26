@@ -161,3 +161,96 @@ export const updateByPackageNameAndPlacementName = async (req, res) => {
     });
   }
 };
+
+export const updateAudienceInfo = async (req, res) => {
+  try {
+    const { RADIA_OR_PRISMA_PACKAGE_NAME, PLACEMENTNAME, audiences } = req.body;
+
+    // 1️⃣ Validation
+    if (!RADIA_OR_PRISMA_PACKAGE_NAME || !PLACEMENTNAME) {
+      return res.status(400).json({
+        success: false,
+        message: "Both RADIA_OR_PRISMA_PACKAGE_NAME and PLACEMENTNAME are required",
+      });
+    }
+
+    if (!audiences || !Array.isArray(audiences)) {
+      return res.status(400).json({
+        success: false,
+        message: "Audiences must be provided as an array",
+      });
+    }
+
+    // 2️⃣ Convert array to comma-separated string
+    const audienceString = audiences.join(', ');
+
+    // 3️⃣ Update query
+    const query = `
+      UPDATE ANALYTICS.ANALYTICS_SCHEMA.TTD_SSOT
+      SET AUDIENCE_INFO = ?
+      WHERE RADIA_OR_PRISMA_PACKAGE_NAME = ? AND PLACEMENTNAME = ?
+    `;
+
+    const values = [audienceString, RADIA_OR_PRISMA_PACKAGE_NAME, PLACEMENTNAME];
+    
+    await executeQuery(query, values);
+
+    res.status(200).json({
+      success: true,
+      message: "Audience info updated successfully",
+      keys: {
+        RADIA_OR_PRISMA_PACKAGE_NAME,
+        PLACEMENTNAME,
+      },
+      audienceString,
+    });
+  } catch (error) {
+    console.error("Snowflake UPDATE error:", error);
+
+    res.status(500).json({
+      success: false,
+      message: "Failed to update audience info",
+    });
+  }
+};
+
+// NEW: Get available audience options (optional - can be used to fetch from database or config)
+export const getAudienceOptions = async (req, res) => {
+  try {
+    // This could be fetched from a configuration table in your database
+    // For now, returning static data that matches the frontend
+    const audienceOptions = [
+      "Tech Enthusiasts",
+      "Business Professionals",
+      "Students (18-24)",
+      "Young Professionals (25-34)",
+      "Parents with Young Children",
+      "Luxury Shoppers",
+      "Fitness Enthusiasts",
+      "Travel Lovers",
+      "Foodies",
+      "Gamers",
+      "Sports Fans",
+      "Movie Buffs",
+      "Music Lovers",
+      "Pet Owners",
+      "Home Improvement DIYers",
+      "Fashion Forward",
+      "Eco-Conscious Consumers",
+      "Early Adopters",
+      "Health & Wellness Seekers",
+      "Remote Workers"
+    ];
+
+    res.status(200).json({
+      success: true,
+      data: audienceOptions,
+    });
+  } catch (error) {
+    console.error("Error fetching audience options:", error);
+    res.status(500).json({
+      success: false,
+      message: "Failed to fetch audience options",
+    });
+  }
+};

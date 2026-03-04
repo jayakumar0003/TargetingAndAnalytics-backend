@@ -5,7 +5,6 @@ export const getCampaign = async (req, res) => {
     const query = `
   SELECT *
   FROM ANALYTICS.ANALYTICS_SCHEMA.CAMPAIGN_OVERVIEW
-    LIMIT 50
 `;
     const data = await executeQuery(query);
     res.status(200).json({

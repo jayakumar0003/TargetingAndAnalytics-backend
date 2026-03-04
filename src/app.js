@@ -3,6 +3,7 @@ import targetingRoutes from "./routes/targeting.routes.js";
 import radiaplanRouter from "./routes/radiaplan.routes.js";
 import campaignRouter from "./routes/campaign.routes.js";
 import mediaplanRouter from "./routes/mediaplan.routes.js";
+import studiesBlsRouter from "./routes/studiesBls.routes.js";
 import cors from "cors";
 
 const app = express();
@@ -28,5 +29,6 @@ app.use("/api/targeting", targetingRoutes);
 app.use("/api/campaign", campaignRouter);
 app.use("/api/mediaplan", mediaplanRouter);
 app.use("/api/radiaplan", radiaplanRouter);
+app.use("/api/studies-bls", studiesBlsRouter);
 
 export default app;

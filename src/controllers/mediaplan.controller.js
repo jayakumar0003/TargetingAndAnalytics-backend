@@ -6,7 +6,6 @@ export const getMediaplan = async (req, res) => {
     const query = `
   SELECT *
   FROM ANALYTICS.ANALYTICS_SCHEMA.MEDIA_PLAN
-  LIMIT 500
 `;
     const data = await executeQuery(query);
 

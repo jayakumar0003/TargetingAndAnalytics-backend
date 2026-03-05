@@ -65,7 +65,7 @@ console.log("controller 1")
       body.PACKAGE_NAME,
       body.BLS_MEASUREMENT,
       body.SURVEY_COMPANIES ?? null,
-      body.SURVEY_METHODLOGY ?? null,
+      body.SURVEY_METHODOLOGY ?? null,
       body.CAMPAIGN_OBJECTIVE_KPI ?? null,
       body.AD_SPEND_MINIMUMS ?? null,
       body.AD_SET_CHANNEL_TYPES ?? null,

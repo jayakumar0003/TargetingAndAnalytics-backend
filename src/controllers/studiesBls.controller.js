@@ -158,3 +158,46 @@ export const updateStudiesBlsRow = async (req, res) => {
     });
   }
 };
+
+/**
+ * GET PACKAGE NAMES BASED ON CAMPAIGN START DATE
+ */
+export const getPackagesByCampaignDate = async (req, res) => {
+  try {
+    const { startDate, endDate } = req.query;
+
+    if (!startDate || !endDate) {
+      return res.status(400).json({
+        success: false,
+        message: "startDate and endDate are required",
+      });
+    }
+
+    const query = `
+      SELECT DISTINCT t.RADIA_OR_PRISMA_PACKAGE_NAME
+      FROM ANALYTICS.ANALYTICS_SCHEMA.RADIA_PLAN r
+      JOIN ANALYTICS.ANALYTICS_SCHEMA.TTD_SSOT t
+        ON r.CAMPAIGN_ID = t.CAMPAIGN_ID
+      WHERE r.CAMPAIGN_FLIGHT_START_DATE
+      BETWEEN ? AND ?
+      AND t.RADIA_OR_PRISMA_PACKAGE_NAME IS NOT NULL
+    `;
+
+    const values = [startDate, endDate];
+
+    const data = await executeQuery(query, values);
+
+    res.status(200).json({
+      success: true,
+      count: data.length,
+      packages: data.map((row) => row.RADIA_OR_PRISMA_PACKAGE_NAME),
+    });
+  } catch (error) {
+    console.error("Snowflake query error:", error);
+
+    res.status(500).json({
+      success: false,
+      message: "Failed to fetch packages by campaign date",
+    });
+  }
+};

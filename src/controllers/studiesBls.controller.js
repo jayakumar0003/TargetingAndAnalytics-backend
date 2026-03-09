@@ -34,7 +34,7 @@ export const getStudiesBls = async (req, res) => {
 export const createStudiesBlsRow = async (req, res) => {
   try {
     const body = req.body;
-console.log("controller 1")
+
     if (!body.PACKAGE_NAME || !body.BLS_MEASUREMENT) {
       return res.status(400).json({
         success: false,
@@ -42,7 +42,16 @@ console.log("controller 1")
       });
     }
 
-    const query = `
+    const packages = body.PACKAGE_NAME.split(",").map(p => p.trim());
+    const measurement = body.BLS_MEASUREMENT.trim();
+
+    const checkQuery = `
+      SELECT BLS_MEASUREMENT
+      FROM ANALYTICS.ANALYTICS_SCHEMA.TTD_SSOT
+      WHERE RADIA_OR_PRISMA_PACKAGE_NAME = ?
+    `;
+
+    const insertQuery = `
       INSERT INTO ANALYTICS.ANALYTICS_SCHEMA.STUDIES_BLS (
         PACKAGE_NAME,
         BLS_MEASUREMENT,
@@ -61,27 +70,45 @@ console.log("controller 1")
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `;
 
-    const values = [
-      body.PACKAGE_NAME,
-      body.BLS_MEASUREMENT,
-      body.SURVEY_COMPANIES ?? null,
-      body.SURVEY_METHODOLOGY ?? null,
-      body.CAMPAIGN_OBJECTIVE_KPI ?? null,
-      body.AD_SPEND_MINIMUMS ?? null,
-      body.AD_SET_CHANNEL_TYPES ?? null,
-      body.STUDY_FEES ?? null,
-      body.STUDY_BRAND_SAFETY ?? null,
-      body.SURVEY_QUESTIONS ?? null,
-      body.TARGET_AUDIENCE ?? null,
-      body.FLIGHT_DATES ?? null,
-      body.BRAND ?? null,
-    ];
+    for (const pkg of packages) {
 
-    await executeQuery(query, values);
+      const result = await executeQuery(checkQuery, [pkg]);
+
+      if (!result.length) {
+        console.log(`Package not found in SSOT: ${pkg}`);
+        continue;
+      }
+
+      const allowedMeasurements =
+        result[0].BLS_MEASUREMENT?.split(",").map(m => m.trim()) || [];
+
+      if (!allowedMeasurements.includes(measurement)) {
+        console.log(`Skipping ${pkg} - measurement not allowed`);
+        continue;
+      }
+
+      const values = [
+        pkg,
+        measurement,
+        body.SURVEY_COMPANIES ?? null,
+        body.SURVEY_METHODOLOGY ?? null,
+        body.CAMPAIGN_OBJECTIVE_KPI ?? null,
+        body.AD_SPEND_MINIMUMS ?? null,
+        body.AD_SET_CHANNEL_TYPES ?? null,
+        body.STUDY_FEES ?? null,
+        body.STUDY_BRAND_SAFETY ?? null,
+        body.SURVEY_QUESTIONS ?? null,
+        body.TARGET_AUDIENCE ?? null,
+        body.FLIGHT_DATES ?? null,
+        body.BRAND ?? null,
+      ];
+
+      await executeQuery(insertQuery, values);
+    }
 
     res.status(201).json({
       success: true,
-      message: "Studies BLS row created successfully",
+      message: "Rows inserted successfully",
     });
 
   } catch (error) {
@@ -109,17 +136,23 @@ export const updateStudiesBlsRow = async (req, res) => {
       });
     }
 
+    const packages = body.PACKAGE_NAME.split(",").map(p => p.trim());
+    const measurement = body.BLS_MEASUREMENT.trim();
+
+    const checkQuery = `
+      SELECT BLS_MEASUREMENT
+      FROM ANALYTICS.ANALYTICS_SCHEMA.TTD_SSOT
+      WHERE RADIA_OR_PRISMA_PACKAGE_NAME = ?
+    `;
+
     const updates = [];
-    const values = [];
+    const updateValues = [];
 
     for (const [key, value] of Object.entries(body)) {
-
-      if (key === "PACKAGE_NAME" || key === "BLS_MEASUREMENT") {
-        continue;
-      }
+      if (key === "PACKAGE_NAME" || key === "BLS_MEASUREMENT") continue;
 
       updates.push(`${key} = ?`);
-      values.push(value ?? null);
+      updateValues.push(value ?? null);
     }
 
     if (updates.length === 0) {
@@ -129,24 +162,41 @@ export const updateStudiesBlsRow = async (req, res) => {
       });
     }
 
-    values.push(body.PACKAGE_NAME);
-    values.push(body.BLS_MEASUREMENT);
-
-    const query = `
+    const updateQuery = `
       UPDATE ANALYTICS.ANALYTICS_SCHEMA.STUDIES_BLS
       SET ${updates.join(", ")}
       WHERE PACKAGE_NAME = ? AND BLS_MEASUREMENT = ?
     `;
 
-    await executeQuery(query, values);
+    for (const pkg of packages) {
+
+      const result = await executeQuery(checkQuery, [pkg]);
+
+      if (!result.length) continue;
+
+      const allowedMeasurements = result[0].BLS_MEASUREMENT
+        .split(",")
+        .map(v => v.trim());
+
+      const exists = allowedMeasurements.includes(measurement);
+
+      if (!exists) {
+        console.log(`Skipping ${pkg} - measurement not allowed`);
+        continue;
+      }
+
+      const values = [
+        ...updateValues,
+        pkg,
+        measurement
+      ];
+
+      await executeQuery(updateQuery, values);
+    }
 
     res.status(200).json({
       success: true,
-      message: "Studies BLS row updated successfully",
-      key: {
-        PACKAGE_NAME: body.PACKAGE_NAME,
-        BLS_MEASUREMENT: body.BLS_MEASUREMENT,
-      },
+      message: "Rows updated successfully",
     });
 
   } catch (error) {

@@ -8,8 +8,6 @@ import cors from "cors";
 
 const app = express();
 
-app.use(cors());
-
 app.use(
   cors({
     origin: [
@@ -23,6 +21,7 @@ app.use(
   })
 );
 
+app.options("*", cors());
 
 app.use(express.json());
 

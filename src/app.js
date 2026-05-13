@@ -16,6 +16,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:8080",
       "https://targetingandanalytics-frontend.onrender.com",
+      "https://ssot-wpp.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
